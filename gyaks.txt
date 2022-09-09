@@ -64,7 +64,7 @@ ________________________________________________________________________________
 d, azon termékek nevét és árát, amelyek ára nem 10,
 
 
-
+SELECT ProductName,Price FROM Products WHERE Price <> 10;
 
 
 
@@ -72,11 +72,7 @@ ________________________________________________________________________________
 e, a 'T' betűvel kezdődő temékek nevét,
 
 
-
-
-
-
-
+SELECT ProductName FROM Products WHERE ProductName LIKE 'T%';
 
 ________________________________________________________________________________-
 f, azon termékek nevét, amelynek neve a 'Louisiana' szóval kezdődik!
