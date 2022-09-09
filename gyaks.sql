@@ -78,8 +78,13 @@ ________________________________________________________________________________
 -- f, azon termékek nevét, amelynek neve a 'Louisiana' szóval kezdődik!
 
 
-
-
+SELECT ProductName FROM Products WHERE ProductName LIKE 'Louisiana%';
 
 
 -- ________________________________________________________________________________-
+
+/*3. Feladat
+Írj SQL utasítást amely az online tesztadatbázis 'Suppliers' táblájából lekérdezi az országokat ismétlődés nélkül!*/
+
+
+SELECT DISTINCT Country FROM Suppliers;
