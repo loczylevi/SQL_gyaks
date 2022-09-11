@@ -3,3 +3,4 @@ UPDATE Customers SET CustomerName = "Mek Elek", City = "Aprajafalva" WHERE Custo
 UPDATE Customers SET CustomerName = "Rejtő jenő", City = "Szőke ciklon" WHERE PostalCode = "S-958 22";
 
 
+DELETE FROM Customers WHERE CustomerName = 'Blauer See Delikatessen'; 
